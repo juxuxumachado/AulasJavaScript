@@ -191,21 +191,3 @@ normal de etiqueta e a escolha da condição de pagamento. Utilize os códigos d
 para ler qual a condição de pagamento escolhida e efetuar o cálculo adequado.  */
 
 
-var sexo = prompt("Entre com o Sexo")
-var  idade = parseInt(prompt("Entre com a Idade"))
-
-if(sexo ==="M"|| sexo ==="m" && idade >= 65){
-        alert('Aposentado')
-}
-else if(sexo === "F"|| sexo ==="f" && idade >= 60){
-        alert('Aposentada')
-}
-else if(idade >= 13 && idade <= 18){
-    alert('Adolescente')
-}
-else if (idade < 13){
-    alert('Crianças')
-}
-else{
-    alert("Adulto")
-}
